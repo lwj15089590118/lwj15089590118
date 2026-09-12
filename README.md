@@ -1,14 +1,28 @@
-# LWJ ｜ 电气自动化 → 工业自动化/控制方向
+# 李安（LWJ）｜ 电气自动化 → 工业自动化 / 智能制造方向
 
-电气自动化专业应届生，围绕**"从 PLC 到云"的完整技术栈**自建 13 个工业自动化作品集项目：
+电气自动化技术专业应届生（专业排名前 5%，持电工三级/高级工证书），围绕**"从 PLC 到云"的完整技术栈**独立开发 **13 个工业自动化开源项目**，全部含 CI、测试与成套工程文档。
 
-- 🔌 **电气 / PLC 方向**：PLC-Robot-Integration-Demo（S7-1200+ABB 虚拟调试）· Electrical-Equipment-Maintenance-System（维保体系）· Virtual-Smart-Factory（旗舰整合）
-- 🎛️ **过程 / 运动控制方向**：Water-Treatment-PID · Building-Automation-DDC · Gantry-Sync-Cam
-- 🤖 **调度 / 视觉 / 分布式方向**：Multi-AGV-Dispatch · Machine-Vision-Inspection · IEC61499-Distributed
-- ☁️ **IoT / 云边 / 数据方向**：Digital-Twin-Predictive · Cloud-Edge-Industrial · Industrial-IoT-Edge-Gateway · Smart-Factory-DAQ
+🎯 **求职方向**：智能制造系统 / 电气自动化 / 设备调试与售后 助理工程师 ｜ 广东 · 可驻场出差 ｜ 简历可向本人索取
 
-**作品集纪律**：所有指标为仿真验证值（如实标注，不冒充现场数据）；每条 CI 命令本地预跑绿才写入；
-每个数字都能在仓库内找到生成它的脚本与报告。欢迎 clone 复跑。
+## 🗂️ 项目索引（按方向）
 
-📌 从置顶仓库 **Virtual-Smart-Factory** 开始。
-📮 2156791374@qq.com
+- 🔌 **电气 / PLC**：[PLC-Robot-Integration](https://github.com/lwj15089590118/PLC-Robot-Integration)（S7-1200+ABB 码垛单元虚拟调试）· [Electrical-Equipment-Maintenance-System](https://github.com/lwj15089590118/Electrical-Equipment-Maintenance-System)（维保体系文档包）· [Virtual-Smart-Factory](https://github.com/lwj15089590118/Virtual-Smart-Factory)（旗舰整合）
+- 🎛️ **过程 / 运动控制**：[Water-Treatment-PID-Control-Simulation](https://github.com/lwj15089590118/Water-Treatment-PID-Control-Simulation) · [Building-Automation-DDC-Simulation](https://github.com/lwj15089590118/Building-Automation-DDC-Simulation) · [Gantry-Sync-Cam-Simulation](https://github.com/lwj15089590118/Gantry-Sync-Cam-Simulation)
+- 🤖 **调度 / 视觉 / 分布式**：[Multi-AGV-Dispatch-Simulation](https://github.com/lwj15089590118/Multi-AGV-Dispatch-Simulation) · [Machine-Vision-Inspection-System](https://github.com/lwj15089590118/Machine-Vision-Inspection-System) · [IEC61499-Distributed-Industrial-Control-System](https://github.com/lwj15089590118/IEC61499-Distributed-Industrial-Control-System)
+- ☁️ **IoT / 云边 / 数据**：[Digital-Twin-Predictive-Maintenance-Platform](https://github.com/lwj15089590118/Digital-Twin-Predictive-Maintenance-Platform) · [Cloud-Edge-Industrial-Control-Platform](https://github.com/lwj15089590118/Cloud-Edge-Industrial-Control-Platform) · [Industrial-IoT-Edge-Gateway-System](https://github.com/lwj15089590118/Industrial-IoT-Edge-Gateway-System) · [Smart-Factory-Data-Acquisition-System](https://github.com/lwj15089590118/Smart-Factory-Data-Acquisition-System)
+
+## 🚀 快速开始：2 分钟复跑旗舰项目
+
+```bash
+git clone https://github.com/lwj15089590118/Virtual-Smart-Factory.git
+cd Virtual-Smart-Factory
+pip install -r requirements.txt      # numpy / flask / pymodbus
+python selftest.py                   # 17 用例全厂自检 + 600s 加速联跑，报告落 reports/
+python main.py --web --speed 10      # 浏览器打开 http://127.0.0.1:5080 看实时监控大屏
+```
+
+🔭 每个指标的生成命令与输出位置：旗舰仓 **[REPRODUCE.md](https://github.com/lwj15089590118/Virtual-Smart-Factory/blob/main/REPRODUCE.md)**
+
+**作品集纪律**：所有指标为仿真验证值（如实标注，不冒充现场数据）；每条 CI 命令本地预跑绿才写入；每个数字都能在仓库内找到生成它的脚本与报告。欢迎 clone 复跑。
+
+📮 2156791374@qq.com ｜ 📱 15089590118
